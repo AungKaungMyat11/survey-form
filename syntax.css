@@ -1,0 +1,79 @@
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: rgb(163, 179, 192);
+}
+
+#header{
+    text-align: center;
+    margin: auto;
+}
+
+#title{
+    color: rgb(5, 83, 83);
+}
+#description{
+    color: rgb(5, 83, 83);
+}
+
+.firstform{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ #radius{
+     border-radius: 15px;
+ }
+
+
+#name{
+    margin-bottom: 30px;
+    
+}
+
+#email{
+    margin-bottom: 30px;
+}
+
+#gender{
+    margin-bottom: 30px;
+}
+
+#number-label{
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+#number{
+    border-radius: 15px;
+}
+
+.gender-role{
+    color:rgb(73, 91, 124);
+    border-radius: 15px;
+    
+}
+
+#phone-number{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#religion{
+   margin-bottom: 30px;
+}
+
+#textarea{
+    border-radius: 10px;
+    min-height: 90px;
+    width: 40%;
+    color: rgb(73, 91, 124);
+    margin-bottom: 15px;
+}
+
+#submit{
+   width: 70px;
+    border-radius: 20px;
+}

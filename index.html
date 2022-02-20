@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="./syntax.css">
+</head>
+<body >
+    <div id="header">
+        <h1 id="title">Survey-form</h1>
+        <p id="description">Please fill out this form as accurately as you can, thanks :)
+            Name</p>
+    </div>
+        
+     <form id="survey-form" action="#"></form>
+     <div class="firstform">
+         <div id="name">
+            <label for="name">Enter your name</label>
+            <input id="radius" type="text" placeholder="Name">
+         </div>
+        
+         <div id="email">
+            <label for="email">Enter your Email</label>
+            <input id="radius" type="text" placeholder="Email">
+         </div>
+        
+         <div id="number-label">
+            <label for="number">Age</label>
+            <input id="number" type="text" placeholder="Age" min="10" max="99">
+         </div>
+        
+
+         <div id="gender">
+            <label for="Ender">Please indicate your gender</label>
+            <select name="role" id="dropdown" class="gender-role" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+         </div>
+
+         <div id="phone-number">
+            <label for="phone-number">Ph number</label>
+            <input id="number" type="text" placeholder="number" min="10" max="99">
+         </div>
+
+         <div id="religion">
+             <label for="">Please select your religion :</label>
+            <label for="checkbox">
+                <input type="checkbox">Buddhism
+            </label>
+
+            <label for="checkbox">
+                <input type="checkbox">Christianity
+            </label>
+
+            <label for="checkbox">
+                <input type="checkbox">Islam
+            </label>
+
+            <label for="checkbox">
+                <input type="checkbox">Hinduism
+            </label>
+         </div>
+         <p>Comment</p>
+         <div id="comment">
+             <label for="Comment"></label>
+             
+             <textarea id="textarea" placeholder="PLease write your comment;" ></textarea>
+         </div>
+
+
+         <div>
+             <input id="submit" type="Submit">
+         </div>
+     </div>
+       
+     
+</body>
+</html>
